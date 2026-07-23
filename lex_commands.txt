@@ -1,0 +1,46 @@
+1. Mobile Number
+flex mobile.l
+gcc lex.yy.c -o mobile.exe
+.\mobile.exe
+
+2. Lex Program Structure
+flex structure.l
+gcc lex.yy.c -o structure.exe
+.\structure.exe
+
+3. Email Validation
+flex email.l
+gcc lex.yy.c -o email.exe
+.\email.exe
+
+4. URL Validation
+flex url.l
+gcc lex.yy.c -o url.exe
+.\url.exe
+
+5. Vowel Identification
+flex vowel.l
+gcc lex.yy.c -o vowel.exe
+.\vowel.exe
+
+6. Date of Birth Validation
+flex dob.l
+gcc lex.yy.c -o dob.exe
+.\dob.exe
+
+7. Capital Letters & Identifier
+flex identifier.l
+gcc lex.yy.c -o identifier.exe
+.\identifier.exe
+
+Simple Rule to Remember
+
+If your file is named:
+
+sample.l
+
+Then the commands are:
+
+flex sample.l
+gcc lex.yy.c -o sample.exe
+.\sample.exe
